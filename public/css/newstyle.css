@@ -1,0 +1,139 @@
+.text-center{
+    text-align: center !important;
+}
+.text-custom{
+font-size:16px;
+padding: 18px;
+}
+.text-custom-data{
+font-size:32px;
+padding: 18px;
+}
+.text-size{
+font-size:15px;
+padding: 18px;
+text-align: center !important;
+color: red;
+}
+.text-back{
+background-color: yellow;
+padding: 10px;
+}
+.text-link{
+font-size:12px;
+padding: 18px;
+color:black;
+}
+.text-padding{
+padding:0 150;
+}
+.btn-info{
+color:red;
+text-decoration: none;
+
+}
+.marquee_text{
+color: blue;
+}
+
+.datetime_box ,.result_parts_first,.text_first,.result_text,.result_number_old ,.result_number{
+    font-size: 30px !important;
+}
+#customers td, #customers th {
+    border: 1px solid #fff;
+    padding: 8px;
+    margin: 4px;
+    font-size: 20px;
+    
+}
+.Satta_king_content ,.newchart-box{
+    font-size: 30px !important; 
+}
+a{
+    font-size: 30px;
+}
+
+.text-padding {
+    padding: 0 100;
+}
+.text-back {
+    border-radius: 5px; /* Add border-radius for some rounded corners */
+}
+
+.text-link {
+    margin: 0; /* Reset margin */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .text-padding {
+        padding: 0 10; /* Reduce padding for smaller screens */
+    }
+  
+    .text-link {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
+}
+
+/* Media query for even smaller screens */
+@media only screen and (max-width: 480px) {
+    .text-padding {
+        padding: 0 10; /* Further reduce padding for very small screens */
+    }
+
+    .text-link {
+        font-size: 14px; /* Further decrease font size for very small screens */
+    }
+    .datetime_box{
+        font-size: 25px !important;
+    }
+    .result_box {
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto !important;
+}
+.footer_section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+}
+@media screen and (max-width: 600px) {
+    .datetime_box {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+
+  table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    /* Responsive styles */
+    @media only screen and (max-width: 200px) {
+        table {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            display: block;
+            width: 100%;
+        }
+        tbody td:before {
+            content: attr(data-label);
+            font-weight: bold;
+            float: left;
+            text-transform: uppercase;
+        }
+    }
+
+

@@ -1,0 +1,39 @@
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VzdG9tLmNzcyIsInNvdXJjZXMiOlsiY3VzdG9tLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiJ9 */
+
+/*# sourceMappingURL=custom.css.map */
+.pagination {
+    margin: auto;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 0;
+}
+
+.table td,
+.table th {
+  border-top: 1px solid #eaeaea;
+  white-space: nowrap;
+  padding: 1.05rem 0.75rem;
+  font-weight: 400;
+}
+
+.table th
+{
+    font-weight: 600;
+}
+.pagination .page-item .page-link {
+    background: #6777ef;
+    color: #fff !important;
+    margin: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}

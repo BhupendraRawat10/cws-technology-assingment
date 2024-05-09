@@ -1,0 +1,706 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #040720;
+
+}
+body, p, div,a {font-size:40px}
+.mydate {font-size:30px;}
+/* header part */
+
+.main_section {
+    padding: 5px 0px;
+}
+
+
+
+
+.bgwhite {background-color:#fff;}
+.p4{padding:40px 40px;}
+.header_button {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+/* menu header part */
+.menu_button {
+    font-size: 70px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 0px;
+    margin: 0px 0px 2px 0px;
+    border: 2px #fff solid;
+    background-color: #ff5a5a;
+    box-shadow: inset 0 0 6px 3px #fff;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    border-radius:0px;
+}
+
+.btn_format {
+    background-color: #ff5a5a;
+    font-size: 70px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+
+
+a:hover {
+    color: #fff;
+}
+
+
+
+/* .marquee section */
+.text_slide {
+    background-color: #fff;
+    border: 2px #fff solid;
+    margin:1px 0px 5px 0px;
+}
+
+.marquee_text {
+    color: #000;
+    padding: 5px;
+}
+
+/* satta king section */
+
+.Satta_king {
+    background-color: #FFFF00;
+
+}
+
+.Satta_king_content {
+    color: #000;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+
+.satta-king-news {
+    background-color: #fff;
+    border: 3px #2b65ec solid;
+    padding:5px 2px 5px 2px;
+    border-radius:10px;
+
+
+
+
+
+
+}
+
+
+
+.satta-king-article {
+    background-color: #fff;
+    border: 2px #ff5a5a solid;
+    padding:0px 0px 0px 0px;
+    border-radius:0px;
+    
+}
+.satta-keyword {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+@media only screen and (max-width:700px) {
+    .satta-keyword {
+
+        justify-content: center;
+    }
+}
+
+.contact-satta {
+    border:0px solid #4BA5EA;
+    padding-bottom: 10px;
+}
+
+.contact-heading {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 45px;
+    color: #0affff;
+    font-weight: bolder;
+}
+
+.contact-text {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #fef9f8;
+    font-weight: bolder;
+}
+
+/* button sextion */
+.btn_section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.phone_button {
+    text-align: center;
+
+}
+
+.whatsapp-button {
+ padding: 20px 30px;
+    background-color: #ff5a5a;
+    color: #fff;
+    font-size: 40px;
+    border: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.call-button {
+    padding: 20px 30px;
+    background-color: #18a707;
+    color: #fff;
+    font-size: 40px;
+    border: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-result {
+
+    border: 3px solid #4BA5EA;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.result-heading {
+    text-align: center;
+    font-size:30px;
+    padding: 10px 0px 30px 0px;
+    color: #0000ff;
+    font-weight: bolder;
+}
+
+.result-content {
+    padding-top: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: #040720;
+    font-weight: bold;
+}
+
+.result-text {
+    color: #FF0000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+.datetime_section {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    color: #FFFF00;
+}
+
+.datetime_box {
+    display: flex;
+    font-size: 60px;
+}
+
+/* div text section */
+.text_section {
+    text-align: center;
+}
+
+.result_parts_first {
+    color: #0affff;
+    padding-top: 10px;
+}
+
+.result_parts_second {
+    color: #0affff;
+    padding-top: 10px;
+}
+
+.result_parts_third {
+    color: #0affff;
+    padding-top: 10px;
+}
+
+.result_parts_four {
+    color: #0affff;
+    padding-top: 10px;
+
+}
+
+.text_first {
+  color: #ffff00;
+    padding-top: 10px;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 700px) {
+    .text_first {
+        font-size: 30px;
+
+    }
+}
+
+.text_second {
+    color: #ffff00;
+    ;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .text_second {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+}
+
+.text_third {
+    color: #ffff00;
+    padding-top: 20px;
+
+
+}
+
+.text_four {
+    color: #ffff00;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+    .text_third {
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/* result section */
+.result_box {
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+
+@media only screen and (max-width: 768px) {
+    .result_box {
+        margin: 5px 0px 5px 0px;
+
+    }
+}
+
+.result_box_description {
+    background-color: #fff8dc;
+    margin: 1px 1px 1px 1px;
+    border: 2px #fff solid;
+    border-radius: 5px;
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.result_text {
+    color: #ff5a5a;
+    font-size: 55px;
+    padding: 0px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+
+.result_number_old {
+    color: #004225;
+    font-size: 60px;
+    padding-top: 10px;
+
+
+    
+}
+.result_number {
+    color: #0000ff;
+    font-size: 60px;
+    padding-top: 10px;
+}
+
+
+.box_text {
+    display: flex;
+    justify-content: center;
+    /* font-size: 25px; */
+
+}
+
+.box_text_description {
+    font-size: 60px;
+}
+
+
+.image_gif_parts {
+    margin-top: 30px;
+}
+
+.image_gif {
+    width: 40px;
+}
+
+
+/* chart section */
+
+.newchart-box {
+  background-color: #306eff;
+    color: #fff;
+    font-size: 30px!important;
+    text-align: center;
+    padding: 14px;
+    margin: 5px 0px 0px 0px;
+    font-weight: bold;
+    border: 3px solid #fff;
+}
+
+
+.newchart {
+    background-color: #fff;
+    box-shadow: inset 0 0 6px 3px #ff0000;
+    margin:3px 0px 5px 0px;
+    border: 1px #fff solid;
+    border-radius:10px;
+    color: #000;
+    text-align: center;
+    padding:0px 5px 0px 5px;
+    font-size:10px;
+    
+
+}
+
+
+
+.newchart_content {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 20px 0px;
+}
+
+
+
+/* table section */
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    
+
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #fff;
+    padding: 8px;
+    margin: 4px;
+    font-size: 40px;
+
+}
+#newformate tr,
+#newformate th{
+    background-color: #306EFF !important;
+
+}
+
+#customers tr:nth-child(even) {
+    background-color: #fff;
+
+}
+#customers tr:nth-child(odd) {
+    background-color: wheat;
+    
+
+}
+
+
+
+#customers th {
+    padding-top: 12px;
+    margin: 4px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #A50438;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: wheat;
+}
+
+#customers th {
+        font-size: 40px;
+
+    }
+
+/* footer section */
+
+/* contact part */
+
+.contact-part {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.footer-text {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+
+.footer-section {
+    padding: 5px 0px;
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+
+
+.footer_section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* footer button */
+.footer_button {
+    font-size: 20px;
+    display: block;
+    color: #ff0000;
+    text-decoration: none;
+    padding: 12px;
+    margin: 1px 1px 0px 1px;
+    border: 0px #fff solid;
+    background-color: #ffe87c;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.button_format_footer {
+    background-color: #ffe87c;
+    font-size: 20px;
+    border: none;
+    color: #ff0000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+/* login form */
+
+.login-form {
+    background-color: #fff;
+
+
+}
+
+.form-section {
+
+
+}
+
+.login-text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.input_field {
+    margin-top: 20px;
+
+   
+}
+
+
+.field {
+    border: 1px solid #000;
+    padding: 10px;
+    width: 100%;
+}
+
+.label-name {
+    font-size: 20px;
+}
+
+.checkbox {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.login-button {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px #fff solid;
+    background-color: #18A707;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.grid-container {
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+.form-login {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .menu_button {
+        font-size: 8px 0px;
+        padding: 10px;
+    }
+    .btn_format {
+    background-color: #ff5a5a;
+    font-size:11px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+.result_text {
+    color: #ff5a5a;
+    font-size: 20px;
+    padding: 0px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.result_number_old {
+    color: #004225;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.result_number {
+    color: #0000ff;
+    font-size: 20px;
+    padding-top: 10px;
+}
+body, p, div, a {
+    font-size: 20px;
+}
+#customers td, #customers th {
+    border: 1px solid #fff;
+    padding: 8px;
+    margin: 4px;
+    font-size: 14px;
+}
+#customers th {
+    font-size: 14px!important;
+}
+.button_format_footer {
+    background-color: #ffe87c;
+    font-size: 8px;
+    border: none;
+    color: #ff0000;
+    font-weight: 700;
+    cursor: pointer;
+}
+.call-button {
+    padding: 20px 30px;
+    background-color: #18a707;
+    color: #fff;
+    font-size: 20px;
+    border: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.whatsapp-button {
+    padding: 20px 30px;
+    background-color: #ff5a5a;
+    color: #fff;
+    font-size: 18px;
+    border: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.datetime_box {
+  display: flex;
+  font-size: 24px!important;
+}
+.Satta_king_content {
+  color: #000;
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+}
+.contact-heading {
+  text-align: center;
+  font-size: 26px;
+  padding-top: 15px;
+  color: #0affff;
+  font-weight: bolder;
+}
+.contact-text {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 10px;
+  color: #fef9f8;
+  font-weight: bolder;
+}
+
+
+}
